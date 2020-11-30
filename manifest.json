@@ -1,0 +1,16 @@
+{
+    "name": "Github repo linker",
+    "description": "Easy way to find GitHub project with Github Pages link",
+    "version": "0.1",
+
+    "permissions": ["https://*.prototype-land.firebaseapp.com/*", "contextMenus", "notifications"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": { 
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png" 
+    },
+    "manifest_version": 2
+}
